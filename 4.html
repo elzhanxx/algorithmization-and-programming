@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Алгоритмизация и программирование</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-blue" class="navbar pull-right" style="background-color: #cad2ff">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"href="main.html"><b>Домой</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="1.html"><b>Основы АиП</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2.html"><b>Алгоритмические конструкции</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3.html"><b>Теория алгоритмов</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="4.html"><b>Понятие структуры данных</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="5.html"><b>Типы данных</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://forms.gle/4TNW9D2rKga5WBQB7"><b>Тестирование</b></a>
+              </li>
+              <li class="nav-item dropdown">
+                
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+    
+    <div  style="background-color: #ffffff">
+      <div class="row">
+        <div class="col-md-18">
+          <h1>Понятие структуры данных</h1>
+          <p>Необходимым условием построения алгоритма является формализация данных, т.е. приведение
+            информации к некоторой информационной модели, уже
+            описанной и исследованной. Когда такая модель найдена, говорят, что определена абстрактная
+            структура данных.<br><br>
+            Абстрактная структура данных описывает признаки и свойства объекта, взаимосвязь между
+            элементами объекта, а также возможные операции над данным объектом или классом объектов.<br>
+            Одной из задач информатики является нахождение форм представления информации, удобных
+            для компьютерной обработки. Информатика как точная наука работает с формальными
+            (описанными математически строго) объектами. Такими объектами — базовыми абстрактными
+            структурами данных, используемыми в информатике, являются:
+            <ul>
+            <li> целые числа;</li>
+            <li>вещественные числа;</li>
+            <li>символы;</li>
+            <li>логические значения.</li></ul></p>
+            <p>
+            Для компьютерной обработки этих объектов в языках программирования существуют
+            соответствующие типы данных (см. “Типы данных”). Базовые объекты можно объединять в
+            более сложные структуры, добавляя операции уже над структурой в целом и правила доступа к
+            отдельным элементам этой абстрактной структуры данных.
+            К таким абстрактным структурам данных относятся:<ul>
+            <li>векторы (конечные массивы);</li>
+            <li>таблицы (матрицы), а в общем случае — многомерные массивы;</li>
+            <li>графы;</li>
+            <li>динамические структуры:</li>
+            <li>последовательности символов, чисел;</li>
+            <li>строки;</li>
+            <li>списки;</li>
+            <li>очереди;</li>
+            <li>стеки;</li>
+            <li>деревья;</li>
+            <li>графы.</li></ul></p>
+            <p>
+            Удачный выбор структуры данных часто является залогом создания эффективного алгоритма и
+            программы, его реализующей: используя аналогию структур данных и реальных объектов,
+            можно находить эффективные решения задач.
+            Заметим, что перечисленные структуры существуют независимо от их реализации при
+            программировании. С этими структурами данных работали и в XVIII, и в XIX веках, когда еще не
+            придумали вычислительную машину. Мы можем разрабатывать алгоритм в терминах
+            абстрактной структуры данных, но для реализации алгоритма в конкретном языке
+            программирования необходимо найти способ ее представления в терминах типов данных и
+            операторов, поддерживаемых данным языком программирования (см. “Операторы языка
+            программирования”). Для компьютерного представления абстрактных структур используются
+            структуры данных, которые представляют собой набор переменных, возможно различных типов
+            данных, объединенных определенным образом. Для конструирования таких структур, как
+            вектор, таблица, строка, последовательность, в большинстве языков программирования
+            присутствуют стандартные типы данных: одномерный массив, двухмерный массив, строка, файл
+            (реже список) соответственно. Организацию остальных структур данных, в первую очередь
+            динамических структур, размер которых меняется во время выполнения программы,
+            программисту приходится осуществлять самостоятельно, используя базовые типы данных. 
+            </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+   
+    
+</body>
+</html>
